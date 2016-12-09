@@ -1,0 +1,11 @@
+<apprenants>
+<personne>
+<nom> amini </nom>
+<prenom> qais </prenom>
+<adresse>
+<num> 122 </num>
+<rue> boulevard diderot </rue>
+<codepostal> 34400 </codepostal>
+</adresse>
+</personne>
+</apprenants>
