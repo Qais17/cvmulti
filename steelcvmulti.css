@@ -1,109 +1,108 @@
-/*ceci est un commentaire*/
 li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
+    		color: #000;
+		display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
 }
+
+
+
+
+
+.navul {
+		font-size: 45px;
+		margin-bottom: 2cm;
+
+}
+
+
 
 li {
-    text-align: center;
-    border-bottom: 1px solid #555;
+		color:#686868;
+		font-size:35px ; "Times New Roman", Times, serif;  
+		text-align: center;
+		font-style: italic;
+ 		border-bottom: dashed 1px ;
+		text-shadow: 2px 2px #3C5144 ; 
+		display: #333D3A inline;
+		float: left ; 
 }
 
-li:last-child {
-    border-bottom: none;
+
+
+li a:hover{
+    		background-color: white;
+   		color: #405275;
+		text-shadow: 2px 2px  black; 
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #555;
-    color: silver;
-}
-
-	h1 {
-    text-shadow: 2px 2px silver ;
-	}
-	li {
-    text-shadow: 2px 2px white ;
-	}h3 {
-    text-shadow: 2px 2px black ;
-	}h2 {
-    text-shadow: 2px 2px black ;
+	
+	h3 {
+    		text-shadow: 2px 2px black ;
+	
 	}
 
 	a 	{
-    display: block;
+    		display: block;
 	}
 
 
 	a:hover {
-    background-color: #333D3A;
+    		background-color: white;
 	}
 
 
 	span {
-    display: #333D3A block;
+	 	display: white block;
 	}
-	li {
-    display: #333D3A inline;
-	}
-
 	#nav 
-{
+	{
    margin:0;
    padding:0;
-}
+	}
  
-#nav li 
-{
-   display:inline;
-   padding:0;
-   margin:0;
-}
-/*Changement de couleur pour les section*/
+	nav li 
+	{
+  		display:inline;
+   		padding:0;
+   		margin:0;
+	}
+	/*Changement de couleur pour les section*/
 
-#nav a:link, #nav a:visited 
-{
-   color:#9800D8;
-   background:#333D3A;
-}
+	nav a {
+		background-color: white lime;
 
-#nav a:link, #nav a:visited 
-{
-   color:#9800D8;
-   background::#333D3A;
-   padding:15px 20px 2px 5px;
-}
+	
+	}
 
 
-body{ background-color:#B0D8E8;}
+	body{ 
+		background-color:silver; 
+		padding-bottom: 25px ; }
 	
 
 	/*Une couleur pas trop agressif en fond*/
 
-	h1 {font-family:Impact;border-bottom: 6px solid #9800D8 ; background-color: #333D3A ; color : #9800D8 ; text-decoration: overline; text-align: center;font-size:70px
+	h1 {font-family:Impact;border-bottom: 6px solid white; background-color: #405275; color : white ; text-decoration: overline;font-size:70px; text-align: center;text-shadow: 2px 2px black ;
 	}
-	h2 {font-family:Impact;border-bottom: 6px solid #9800D8 ;background-color:#333D3A ; font-size:60px; color:#9800D8; text-align: center;text-decoration: overline;
+	h2:hover {font-family:Impact;border-bottom: 6px solid white ;background-color:#405275 ; font-size:60px; color:white; text-align: center;text-decoration: overline;text-align: center; text-shadow: 2px 2px black;
 	}
 	ul {	font-family:"Times New Roman", Times, serif;
-		list-style-type: none ;font-size:35px ;
+font-size:35px ;list-style-type: none;overflow: hidden; background-color: #405275;
 	}
+
 	/*pour changer d'une police un peut trop basique*/
  	
 
-	li{
-	color:#686868;text-align: center;font-size:35px ; "Times New Roman", Times, serif;  font-style: italic; border-bottom: dashed 1px
-	}
 
-	h2 {border-bottom: 6px solid #9800D8 ;background-color:#333D3A ; font-size:60px; color:#9800D8; text-align: center;text-decoration: overline;}
 
 	/*centré, mettre des bordure, changer la taille et la couleur c'est fun !*/
 
 	p{
-	color:#9800D8; text-align: center;font-size:35px ;"Times New Roman", Times, serif; font-style: oblique;border-style: double;
+	color:#405275; text-align: center;font-size:35px ;"Times New Roman", Times, serif;border-style: double;
+	
 	}
+
+
